@@ -39,12 +39,12 @@ const UserInterface = () => {
                 setContent(<SequenceDisplay values={unitValues} />);
             } else {
                 setContent(
-                    <p className="error-message">عفوًا هذا الكارت غير متوفر </p>
+                    <p className="error-message">عفوًا هذه البطاقة غير متوفرة </p>
                 );
             }
         } else {
             setContent(
-                <p className="error-message">عفوًا هذا الكارت غير متوفر
+                <p className="error-message">عفوًا هذه البطاقة غير متوفرة
                 </p>
             );
         }
@@ -60,7 +60,7 @@ const UserInterface = () => {
                 <div className='answers-page'>
                     <form onSubmit={handleShowUnitValues}>
                         <div className='answers'>
-                            <label htmlFor="unitNumber" className='title'>ادخل رقم الكارت </label>
+                            <label htmlFor="unitNumber" className='title'>ادخل رقم البطاقة </label>
                             <input
                                 className='input'
                                 type="number"
@@ -94,11 +94,8 @@ const UserInterface = () => {
 
                     <h2 className='title'>قوانين اللعبة</h2>
                     <ol >
-                        <li className='rules'>تتكون اللعبة من 100 بطاقة.</li>
-                        <li className='rules'>تحتوي كل بطاقة على 10 أسئلة.</li>
-                        <li className='rules'>مدة الإجابة على كل بطاقة هي دقيقتين.</li>
-                        <li className='rules'>يحق لكل فريق أن يقول "بنك" قبل أي سؤال لحفظ النقاط السابقة وإضافتها إلى المجموع الكلي، وإلا سيخسر الفريق نقاط الإجابات الصحيحة.</li>
-                    <li className='rules'>تسلسل النقاط 1-2-4-6-8-10.</li>
+                        <li className='rules'>إضافة نقطة للفريق فى حالة الإجابة الصحيحة</li>
+                        <li className='rules'>خصم نقطة من الفريق فى حالة الاجابة الخاطئة</li>
                     </ol>
                     </div>
 
