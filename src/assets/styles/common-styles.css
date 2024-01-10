@@ -14,10 +14,7 @@ justify-content: center;
 
 .landing{
     min-height: 100vh;
-    /* background-color: #bd8d43; */
-    background-color: #005637;
- 
-    /* background-color: #075e54; */
+    background-color: #bd8d43;
 }
 .hero{
     min-height: 70vh;
@@ -33,9 +30,8 @@ justify-content: center;
     width: 187px;
     height: 64px;
     font-size: 24px;
-    color: #131212;
-    /* background-color: #41505C; */
-    background-color: #e9cd1b;
+    color: #fff;
+    background-color: #41505C;
     border: none;
     border-radius: 16px;
     font-weight: 600;
@@ -44,8 +40,7 @@ justify-content: center;
 
 .answers-page{
     min-height: 100vh;
-    /* background-color: #bd8d43; */
-    background-color: #005637;
+    background-color: #bd8d43;
 }
 
 .answers{
@@ -72,9 +67,7 @@ justify-content: center;
 .title{
     font-family: 'Cairo', 'Inter',sans-serif;
     font-size: 24px;
-    /* color:  #f0f3f5; */
-    color:  #e9cd1b;
-    /* color:  #f7f8fa; */
+    color:  #2E4353;
     font-weight: 600;
 
 }
@@ -86,17 +79,12 @@ ol{
     max-width: 250px;
     font-size: 24px;
     list-style-type: arabic-indic;
-    color: #fff;
 }
 .rules{
     font-family: 'Cairo', 'Inter',sans-serif;
-    color:  #f1eeee;
-    /* color:  #ffffff; */
+    color:  #1b1b1b;
     font-weight: 600;
     width: 250px;
     direction: rtl;
     font-size: 18px;
-}
-.error-message{
-    color: #fff;
 }
